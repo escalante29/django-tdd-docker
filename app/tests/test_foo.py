@@ -21,4 +21,4 @@ def test_ping(client):
 
     # Then
     assert response.status_code == 200
-    assert content["ping"] == "pong!"
+    assert content["ping"] == "pong 123"
